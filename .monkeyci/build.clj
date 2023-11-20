@@ -4,7 +4,7 @@
              [shell :as s]]))
 
 (def inspect
-  (s/bash "ls -al && df -h"))
+  (s/bash "ls -al"))
 
 (def simple-container
   {:container/image "docker.io/alpine:latest"
